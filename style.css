@@ -29,10 +29,21 @@ header{
     margin: 0 auto;
     padding: 0 20px;
 }
+.container img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.container .text{
+    margin-left: 10px
+}
 .navbar{
     justify-content: space-between;
 }
-.nav-links{
+ .nav-links{
     gap: 20px;
     list-style: none;
 }
